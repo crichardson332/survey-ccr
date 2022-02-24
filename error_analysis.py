@@ -1,6 +1,7 @@
 import json
 
-with open('bart_summary_evaluation.jsonl', 'r') as json_file:
+# with open('./data/annotated_bart.jsonl', 'r') as json_file:
+with open('./data/annotated_t5.jsonl', 'r') as json_file:
     json_list = list(json_file)
 
 # track num of each error by index
